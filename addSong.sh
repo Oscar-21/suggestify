@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -i -X POST "https://api.spotify.com/v1/users/jasparlamarcrab/playlists/1QiPbwfUZzb4ITA96SKVuU/tracks?uris=spotify:track:3Dwq1oiOFys6Sxr5SslmXw,spotify:track:7kDmQqveSSRq32SoUsS7lV" -H "Authorization: Bearer BQDUjGABThqlCAD4rXtDkLFW-t-hFxfUuQ3bcevEM765Ct_38jQo8LLIxoUiF-AWfynzpjRiqNNYBCpY8BIV82l_Hss9zwf9xo1KBPXXu_kjK6StyssukaC8orYGcqs6XJXMeXMU09HhoVHlSdMira6Mc-YsdXLK3OQK3nJoSWgp6MXA4J7TedbGVAbO4065Jh0kdSX7auufHS6lLhNafARajg" -H "Accept: application/json"
