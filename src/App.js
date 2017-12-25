@@ -1,18 +1,13 @@
-import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 
-class App extends Component {
+import App from './components/App';
+import 'normalize.css/normalize.css';
+import './styles/styles.scss';
 
-  render() {
-    return (
-      <Switch>
-      {console.log('renderONe')}
-        <Route exact path='/' render={(props) => <Home {...props} />} /> 
-        <Route path='/about' render={(props) => <About {...props} />} /> 
-      </Switch>
-    );
-  }
-}
-export default App;
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById('app'));
